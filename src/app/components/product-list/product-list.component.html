@@ -1,0 +1,24 @@
+<div class="product-list-container">
+  <div class="header-section">
+    <h1 class="page-title">MyStore - Products</h1>
+    <p class="page-subtitle">Discover amazing products at great prices</p>
+  </div>
+
+  <div *ngIf="loading" class="loading-container">
+    <div class="spinner"></div>
+    <p>Loading products...</p>
+  </div>
+
+  <div *ngIf="!loading && products.length === 0" class="empty-state">
+    <p>No products available at the moment.</p>
+  </div>
+
+  <div *ngIf="!loading && products.length > 0" class="products-grid">
+    <app-product-item
+      *ngFor="let product of products"
+      [product]="product"
+      (addToCart)="onAddToCart($event)">
+    </app-product-item>
+  </div>
+</div>
+

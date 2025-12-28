@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "price": 99.99,
+    "url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&h=500&fit=crop",
+    "description": "Premium wireless headphones with active noise cancellation and 30-hour battery life. Perfect for music lovers and professionals."
+  },
+  {
+    "id": 2,
+    "name": "Smart Fitness Watch",
+    "price": 249.99,
+    "url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop",
+    "description": "Feature-rich smartwatch with heart rate monitoring, GPS tracking, and water resistance. Track your fitness goals with style."
+  },
+  {
+    "id": 3,
+    "name": "Ergonomic Laptop Stand",
+    "price": 49.99,
+    "url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop",
+    "description": "Adjustable aluminum laptop stand that improves posture and increases desk space. Perfect for home office setups."
+  },
+  {
+    "id": 4,
+    "name": "Wireless Ergonomic Mouse",
+    "price": 29.99,
+    "url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500&h=500&fit=crop",
+    "description": "Comfortable wireless mouse with precision tracking and long battery life. Designed for extended use without fatigue."
+  },
+  {
+    "id": 5,
+    "name": "RGB Mechanical Keyboard",
+    "price": 129.99,
+    "url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=500&h=500&fit=crop",
+    "description": "Premium mechanical keyboard with customizable RGB lighting and tactile switches. Enhance your typing and gaming experience."
+  },
+  {
+    "id": 6,
+    "name": "Multi-Port USB-C Hub",
+    "price": 39.99,
+    "url": "https://images.unsplash.com/photo-1587825147138-346c006c6933?w=500&h=500&fit=crop",
+    "description": "Versatile USB-C hub with HDMI, USB 3.0 ports, and SD card reader. Connect multiple devices to your laptop effortlessly."
+  },
+  {
+    "id": 7,
+    "name": "4K Ultra HD Monitor",
+    "price": 349.99,
+    "url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500&h=500&fit=crop",
+    "description": "27-inch 4K monitor with stunning color accuracy and ultra-thin bezels. Perfect for design work and entertainment."
+  },
+  {
+    "id": 8,
+    "name": "Portable SSD Drive",
+    "price": 89.99,
+    "url": "https://images.unsplash.com/photo-1597872200969-2b65d56a16d7?w=500&h=500&fit=crop",
+    "description": "Fast and reliable portable SSD with 1TB storage capacity. Transfer files quickly with USB 3.2 connectivity."
+  }
+]
+

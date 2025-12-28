@@ -1,0 +1,47 @@
+<div class="product-details-container">
+  <div *ngIf="loading" class="loading-container">
+    <div class="spinner"></div>
+    <p>Loading product details...</p>
+  </div>
+
+  <div *ngIf="!loading && product" class="product-details">
+    <button (click)="goBack()" class="back-btn">← Back to Products</button>
+
+    <div class="product-content">
+      <div class="product-image-section">
+        <div class="image-container">
+          <img [src]="product.url" [alt]="product.name" class="product-image">
+        </div>
+      </div>
+
+      <div class="product-info-section">
+        <h1 class="product-name">{{ product.name }}</h1>
+        <p class="product-price">${{ product.price.toFixed(2) }}</p>
+        
+        <div class="product-description">
+          <h3>Description</h3>
+          <p>{{ product.description }}</p>
+        </div>
+
+        <div class="product-actions">
+          <div class="quantity-selector">
+            <label for="detail-quantity" class="quantity-label">Quantity:</label>
+            <select
+              id="detail-quantity"
+              [(ngModel)]="selectedQuantity"
+              (ngModelChange)="onQuantityChange($event)"
+              class="quantity-select">
+              <option *ngFor="let qty of quantities" [value]="qty">{{ qty }}</option>
+            </select>
+          </div>
+
+          <button (click)="addToCart()" class="add-to-cart-btn">
+            <span class="btn-icon">🛒</span>
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
